@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ErenBaba_Hafta2.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErenBaba-Hafta2.Core\ErenBaba-Hafta2.Core.csproj" />
+  </ItemGroup>
+
+</Project>

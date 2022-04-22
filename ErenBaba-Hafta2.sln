@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{6CC5EC1B-E124-438A-A76D-4E835A58A3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErenBaba-Hafta2.API", "ErenBaba-Hafta2.API\ErenBaba-Hafta2.API.csproj", "{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "persistence", "persistence", "{9A070289-4B8E-4C94-8089-A858E9131B3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCore", "EFCore", "{009DC870-AEB8-417C-AF95-B0CA0B972CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErenBaba-Hafta2.Persistence.EF", "ErenBaba-Hafta2.Persistence.EF\ErenBaba-Hafta2.Persistence.EF.csproj", "{565EB00B-90DC-4262-A947-27EF5EFF1FB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{85BF91D5-450A-473C-AAC4-C47DBEBB9F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErenBaba-Hafta2.Domain", "ErenBaba-Hafta2.Domain\ErenBaba-Hafta2.Domain.csproj", "{EAD0954D-66BB-482B-A339-8BE0D750E638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{78FE6F55-58EA-4706-8426-0BF9B72FA652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErenBaba-Hafta2.Core", "ErenBaba-Hafta2.Core\ErenBaba-Hafta2.Core.csproj", "{B2578533-26EF-4F4C-B93D-577281920DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565EB00B-90DC-4262-A947-27EF5EFF1FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565EB00B-90DC-4262-A947-27EF5EFF1FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565EB00B-90DC-4262-A947-27EF5EFF1FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565EB00B-90DC-4262-A947-27EF5EFF1FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD0954D-66BB-482B-A339-8BE0D750E638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD0954D-66BB-482B-A339-8BE0D750E638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD0954D-66BB-482B-A339-8BE0D750E638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD0954D-66BB-482B-A339-8BE0D750E638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2578533-26EF-4F4C-B93D-577281920DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2578533-26EF-4F4C-B93D-577281920DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2578533-26EF-4F4C-B93D-577281920DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2578533-26EF-4F4C-B93D-577281920DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98D9720C-BE4B-4EFA-81FC-63DD2ED0FEF8} = {6CC5EC1B-E124-438A-A76D-4E835A58A3BE}
+		{009DC870-AEB8-417C-AF95-B0CA0B972CD8} = {9A070289-4B8E-4C94-8089-A858E9131B3B}
+		{565EB00B-90DC-4262-A947-27EF5EFF1FB0} = {009DC870-AEB8-417C-AF95-B0CA0B972CD8}
+		{EAD0954D-66BB-482B-A339-8BE0D750E638} = {85BF91D5-450A-473C-AAC4-C47DBEBB9F7E}
+		{B2578533-26EF-4F4C-B93D-577281920DD3} = {78FE6F55-58EA-4706-8426-0BF9B72FA652}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00505138-C00B-48FF-AD97-CA4B81DAEE14}
+	EndGlobalSection
+EndGlobal
